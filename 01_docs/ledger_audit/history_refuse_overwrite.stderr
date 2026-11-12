@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "W:\华为\dot_handoff_20261112\package\02_tools\history.py", line 41, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "W:\华为\dot_handoff_20261112\package\02_tools\history.py", line 20, in main
+    if out.exists() and any(out.iterdir()):raise ValueError('destination must be new/empty; refusing to overwrite')
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: destination must be new/empty; refusing to overwrite

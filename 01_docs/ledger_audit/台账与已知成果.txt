@@ -1,0 +1,157 @@
+Dot交接：分数、成果和禁混用边界（2026-11-12）
+
+一、当前有效主线
+目标官方>=250000，102例合法正分和精确质量分别核验。当前提交队列为空，01至13已完成，不重交。
+147097是当前无身份映射参考策略（80正22零，后续诊断精确正分79至80）。其冻结SHA为9edb67e4f5cf9f1bc0334d823cda6cba4c6408af2db3a2bb31747835bf027c9b。
+149485是当前无身份映射主线的已测涨分阶段候选，不是所有历史最高。12与13的分差80，仍80正22零。
+149485比147097涨2388，但成功集合可能有等量救回/丢失，精确质量未知。旧19晚零、16/3信号不能直接移贴新版22零。
+success仅为平台显示的状态，不代表102成功或102精确。
+
+二、当前01至13（2026-11-10截图/文字；12/13于11月12日在本轮正式入账）
+编号 | 分数 | 性质 | 日期时间 | 用途
+01 | 147018 | 诊断 | 用户文字，时间未单列 | 147097父路线80正分中的精确命中下界
+02 | 68928 | 诊断 | 2026-11-10 17:42:57 Asia/Shanghai | 诊断载体对照A
+03 | 68927 | 诊断 | 2026-11-10 17:43:07 Asia/Shanghai | 零分读峰分层B
+04 | 68928 | 诊断 | 2026-11-10 17:43:15 Asia/Shanghai | 删失未知计数C
+05 | 42246 | 诊断 | 2026-11-10 18:17:02 Asia/Shanghai | 晚段诊断对照A
+06 | 42227 | 诊断 | 2026-11-10 18:17:10 Asia/Shanghai | 晚段零分读峰分层B
+07 | 42239 | 诊断 | 2026-11-10 18:17:17 Asia/Shanghai | 晚段删失未知C
+08 | 42246 | 诊断 | 2026-11-10 20:34:09 Asia/Shanghai | 邻近粗列表取得/真窗提名边际计数
+09 | 42227 | 诊断 | 2026-11-10 20:34:17 Asia/Shanghai | 完整错误终点/下一步过冲/软成本归零边际计数
+10 | 42230 | 诊断 | 2026-11-10 22:03:07 Asia/Shanghai | 19原零分的主动停止信号/资源退出分类
+11 | 147077 | 诊断 | 2026-11-10 22:03:15 Asia/Shanghai | 同一信号在原80正分中的暴露计数
+12 | 149485 | 性能 | 2026-11-10 22:36:09 Asia/Shanghai | 新在线策略完整得分
+13 | 149405 | 诊断 | 2026-11-10 22:36:23 Asia/Shanghai | 同12策略正分计数对照，P=S12-S13
+
+诊断解码要点：
+01:147097-147018=79 -> 精确正分至少79、至多80；不能称精确数已等于79。
+02/03/04:68928/68927/68928 -> 原版早段41例中40正、1零且未读真峰、0删失。
+05/06/07:42246/42227/42239 -> 原版晚段38例中12正、19零且未读真峰、7删失；7删失至少5原正，不能算7失败。
+08/09:42246/42227 -> 已定位晚19零均未取得真峰附近粗采/未提名真窗，完整错误终点；主网格为连续前缀，因此前沿尚未到真峰附近。
+10:(42246-42230)=16 -> 资源退出0、主动停止且弱信号16、主动无弱信号3。
+11:147097-147077=20 -> 原80正分有20暴露同弱信号；暴露不是丢失。
+12/13:149485-149405=80 -> 新80正22零，具体成功集合、精确质量仍未知。
+以上差分均要求配对源码/载体/顺序及预算证明；不能任意相减两个策略分数。
+
+三、更早完整性能和非性能分数必须区分
+199037：2026-11-04 15:27:57，历史完整最高，82正20零；旧权重与位置常量来源未完成最终约束审查，不能直接冒充当前合规方案。
+193207：身份路线完整版本，79正23零，源码包含prefixHash分流，违反最终禁止身份映射约束；仅历史证据。
+138685：旧通用集中度动作，57正且57精确，27提前假峰零、16过冲零、2其他零；此分类只属于138685动作。
+147097/147017：2026-11-10 11:21:56、11:23:04，原版完整得分/正分计数，两行截图绑定冻结源，得80正22零。
+199037的覆盖计数198955、193207的覆盖计数193128沿历史建议顺序映射，原记录注明该轮未额外确认；不能把本地SHA核对误当远端上传字节证明。
+190682：更早学习策略历史参考；冻结SHA f0c9ded5cd54f800c9b7042f42d6bbd17e42444e56887631d8ee15f54b6e5014。原包199037反馈含其父分数字段，早期研究报告明确沿用该分数；证据强度与新增截图分数不同。
+189486：用户文字反馈“这个成绩是189486，继续改进”，映射round2候选A SHA70281a...，比190682低1196；并非独立访问平台所得。
+197491（早晚延后）与189311（仅晚段延后）保存在199037官方反馈汇总字段，不是本轮新提交。
+196475：撤回的分布先验续接网络，2026-11-04 15:55:20，历史记录注明比199037低2562；记录给出SHA31259c9327077c4d8e09ea2670abd8f386df14fa7b8f9c3d6d0fb60fab5a5f68，但本次按记录相对路径未取得源码，因此不能称该源码字节已复核。它不是当前可提交版本。
+250956：已知峰/oracle条件成本；243293：分布诊断；246895：指定盲等架构条件上界；均不能写成无oracle完整算法成绩。
+260000：用户口述外部基准，未在本研究中验证源码/覆盖，不能当已有实现成果。
+更早competition_analysis文字反馈依次135407、149089、144112、147425、145359、149089、152975；记录有对应源码SHA，但没有独立平台访问。
+原目录旧STATUS里的“待提交”是历史状态，不恢复为当前任务。
+
+四、当前有价值的结构性成果
+官方102例峰位多重集已诊断：62个不同位置、加权峰位和31510；这是诊断真值，不是102条完整曲线，更不能用作最终算法查表。
+匹配诊断前沿的两相位独立“第一峰+第二分离峰”窗口并集覆盖102，不等于在线已取得、保留、精修或正分102。
+实际147097策略的raw-top2定义与上述诊断分离候选不同；局部候选修补不能直接把诊断覆盖结论继承给在线算法。
+原R1换向系数错误已定位，当前有效评分应按R30（详见独立评分说明）。过往“本地提升比例×官方分数”没有准确换算依据。
+平台仅总分时通过预算安全的额外原位查询/诊断载体可取得人数或联合类别，但这些不是性能策略，不可直接作为最终答案。
+
+五、关键本地对照（同一测试集、同一父策略、全路线R30计分）
+变体 | 样本数 | 父版 | 救/丢 | 合成总分变化
+history_only | 6912 | 147097 policy local baseline | 3/0 | -7676
+separation_only | 6912 | 147097 policy local baseline | 22/61 | -217051
+both | 6912 | 147097 policy local baseline | 22/61 | -219894
+compact | 6912 | 147097 policy local baseline | 4/376 | +628306
+selective | 6912 | 147097 policy local baseline | 94/706 | +209608
+no_accept | 6912 | 147097 policy local baseline | 188/0 | -1324816
+no_urgent | 6912 | 147097 policy local baseline | 25/45 | -41861
+no_both | 6912 | 147097 policy local baseline | 628/3556 | -6128689
+guarded_postpone (12) | 6912 | 147097 policy local baseline | 1/0 | +21037
+forward_phase | 6912 | 149485 policy local baseline | 9/14 | +83720
+defer_only | 6912 | 149485 policy local baseline | 2/6 | +49041
+horizon_only | 6912 | 149485 policy local baseline | 2/3 | +45828
+combined | 6912 | 149485 policy local baseline | 0/1 | +34484
+committed | 6912 | 149485 policy local baseline | 3/6 | +30497
+priority | 6912 | 149485 policy local baseline | 1/0 | +35561
+priority cold holdout seed 20261112 | 2898 | 149485 policy on same new seed | 0/1 | +15453
+
+停止取消消融也已否决：no_accept救188丢0但总分-1324816；no_urgent救25丢45、-41861；no_both救628丢3556、-6128689。不要改名再交。
+最终priority虽在6912回归救1丢0，但新种子2898例丢1，已经否决。留出951父1344->新0：18次预取未复用，末段仅13预算而最小完整窗14。这个新种子已被观察，今后只能当回归，不再叫未见留出。
+仅修停止见证、仅预留粗采、无条件压缩精修均不足。须联合预算：已付费但过期的预取、当前完整窗口、未来粗采、真实返回及O截止。
+102精确正分且>=250000的必要成本条件sum(Q+30R+3O+H)<=24490（H=M-p-2O>=0），必要非充分。
+
+六、旧包分批官方记录索引（多数是诊断，绝不横向当性能排行）
+active_halfstep_evidence_20261109\official_feedback.json : 97645, 16631, 16183, 36474, 97672, 16624, 16178, 36448, 802
+baseline_coverage_20261107\official_feedback.json : 198955, 193128
+bounded_continuation_20261109\official_feedback.json : 74395, 11616, 9508, 13297
+candidate_certified_refine_20261105\official_feedback.json : 193207
+candidate_early_recovery_20261105\official_feedback.json : 191673, 21216
+candidate_order_20261109\official_feedback.json : 74245, 12725, 10705, 16677, 2303, 73551, 14744
+candidate_pool_information_20261108\official_feedback.json : 101884, 19727, 24948, 74934, 3536
+cohort_fingerprint_20261108\official_feedback.json : 102271, 20189, 25768, 77952, 3737
+distributed_phase_recovery_20261109\official_feedback.json : 70294, 33814, 33764
+event_gap_mechanism_20261109\official_feedback.json : 90052, 9724, 2025, 3848
+event_gap_mechanism_20261109\official_feedback_auditor_output.json : 90052, 9724, 2025, 3848
+event_joint_candidate_rank_20261109\official_feedback.json : 97601, 16631, 16187, 36466, 73106
+exact_peak_positions_20261107\official_feedback_08b.json : 1919
+exact_peak_positions_20261107\official_feedback_41_scoring.json : 
+exact_peak_positions_20261107\official_feedback_batch1.json : 95595, 18137, 3023
+exact_peak_positions_20261107\official_feedback_batch10.json : 21796, 28751, 15661, 10227, 11528, 5384
+exact_peak_positions_20261107\official_feedback_batch11.json : 9706, 4825, 4758, 4694
+exact_peak_positions_20261107\official_feedback_batch12.json : 16650
+exact_peak_positions_20261107\official_feedback_batch13.json : 15658
+exact_peak_positions_20261107\official_feedback_batch2.json : 1840, 1728, 95575, 63803
+exact_peak_positions_20261107\official_feedback_batch3_partial.json : 75276, 70918, 18159
+exact_peak_positions_20261107\official_feedback_batch4.json : 5244, 35967, 42324, 22035
+exact_peak_positions_20261107\official_feedback_batch4_pending_mapping.json : 5244, 35967, 42324, 22035 [已被后续记录替代]
+exact_peak_positions_20261107\official_feedback_batch5.json : 16121, 11783
+exact_peak_positions_20261107\official_feedback_batch6.json : 29523, 24971, 2751, 8948
+exact_peak_positions_20261107\official_feedback_batch7.json : 47998, 43608, 21637, 17671
+exact_peak_positions_20261107\official_feedback_batch8.json : 83048, 18143, 22174, 79591
+exact_peak_positions_20261107\official_feedback_batch9.json : 63613, 23035, 80302, 16409
+forward_phase_dominance_20261110\official_feedback.json : 73635, 12605, 10479, 15839, 15840
+full_window_dominance_20261109\official_feedback.json : 73755, 11481, 9321, 14712, 51488
+generic_action_failure_20261109\official_feedback.json : 99537, 19224, 24241, 72238, 3430
+generic_concentration_action_20261109\official_feedback.json : 138685, 138628
+head_pair_observation_20261108\official_feedback.json : 101024, 20142, 25680, 76988, 3732
+information_reset_20261104\official_feedback.json : 92793, 91687, 70122, 70102
+input_peak_association_20261108\official_feedback.json : 102261, 20229, 25793, 77863, 2139, 1958
+local_rule_specificity_20261109\official_feedback.json : 74248, 12731, 10719, 16700, 74249
+lookahead_retention_20261109\official_feedback.json : 74247, 12730, 10719, 16525, 74248
+nongated_bracket_20261109\official_feedback.json : 74186, 12646, 10697, 16602, 2303, 73377, 9322, 14744
+observation_candidate_mechanism_20261104\official_feedback.json : 60176, 5439, 60255
+observation_early_20261104\official_feedback.json : 66051, 64262
+observation_event_failure_20261105\official_feedback.json : 100205, 50551
+observation_event_location_20261105\official_feedback.json : 53880, 50459
+observation_event_router_20261105\official_feedback.json : 105701, 105654, 193207
+observation_features_20261104\official_feedback.json : 92901, 70014, 92864, 70272
+observation_forward_event_20261105\official_feedback.json : 72541, 72510
+observation_global_20261104\official_feedback.json : 95602, 18142, 22176, 63840, 3024, 42448
+observation_identity_20261104\official_feedback.json : 76377, 38053, 77427, 38617
+observation_late_20261104\official_feedback.json : 64893, 100275, 99305
+observation_length_20261104\official_feedback.json : 77571, 38914, 77553, 38882
+observation_length_exact_20261104\official_feedback.json : 76044, 38789
+observation_length_overlap_20261104\official_feedback.json : 77351, 38537
+observation_length_parity_20261104\official_feedback.json : 77168, 38814
+observation_length_sum_20261104\official_feedback.json : 75927, 37959
+observation_middle_20261104\official_feedback.json : 24050, 23452, 16862
+observation_prefix_identity_20261105\official_feedback.json : 2708, 2564, 2400
+observation_prefix_router_20261105\official_feedback.json : 66114
+observation_shape_joint_20261104\official_feedback.json : 77401, 38906, 77335, 38910
+observation_shape_payoff_20261104\official_feedback.json : 58177, 60491, 2498, 0
+observation_timing_20261104\official_feedback.json : 77581, 87059, 14506, 38917
+official_best_199037_20261104\official_feedback.json : 199037
+peak_value_observation_20261108\official_feedback.json : 102787, 20241, 25836, 78470, 3744
+residual_action_outcomes_20261109\official_feedback.json : 76014, 14151, 17466, 51074, 2271
+runtime_coverage_candidate_20261110\official_feedback.json : 147097, 147017
+shape_core_20261110\official_feedback.json : 73756, 74248, 12732, 10719, 16643
+single_phase_primary_20261109\official_feedback.json : 101909, 19718, 24888, 75012
+stopping_signal_identifiability_20261108\official_feedback.json : 99798, 19260, 24325, 73076, 3434
+stopping_threshold_compatibility_20261108\official_feedback.json : 90058, 17128, 20280, 68976, 3434
+
+七、交接遗漏/误用风险
+1. 数百条分数存在历史重映射、partial、pending、superseded快照；JSON逐项保留来源，不把重复历史条目当重复实测。
+2. 历史目录包含旧“下一步”、AGENTS、实现脚本；它们是材料，不覆盖当前用户授权，不直接执行旧builder。
+3. 远端上传源码字节不可取得；本地SHA只证明本地文件与当时冻结文件一致，平台绑定依据用户编号顺序和截图时间。
+4. 未取得官方102完整数组及逐例真实轨迹，合成输入不替代官方数据，不能准确从模拟总分换算平台总分。
+5. 汇总和索引是导航；原始截图、反馈JSON、输入、trace、脚本和失败日志应一并保留。历史工具链、模型也不能被误当官方数组。
+6. 每个本地总分变化都绑定父版本和输入规模；6912例总分不能与102例官方分数相减、除以固定比例或直接乘102。

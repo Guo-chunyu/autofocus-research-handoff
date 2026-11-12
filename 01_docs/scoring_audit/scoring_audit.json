@@ -1,0 +1,543 @@
+{
+  "status": "passed_readonly_scoring_audit",
+  "date": "2026-11-12 Asia/Shanghai",
+  "actual_checks": [
+    {
+      "name": "R30_not_R1",
+      "observed": {
+        "score": 2945,
+        "q": 3,
+        "R": 1,
+        "M": 15,
+        "O": 7,
+        "d": 0,
+        "target": 1,
+        "last": 1
+      },
+      "expected": {
+        "score": 2945,
+        "R": 1,
+        "M": 15,
+        "q": 3,
+        "O": 7
+      }
+    },
+    {
+      "name": "Q199",
+      "observed": {
+        "score": 2601,
+        "q": 199,
+        "R": 0,
+        "M": 200,
+        "O": 0,
+        "d": 0,
+        "target": 200,
+        "last": 200
+      },
+      "expected": {
+        "score": 2601,
+        "q": 199
+      }
+    },
+    {
+      "name": "Q200_zero",
+      "observed": {
+        "score": 0,
+        "q": 200,
+        "R": 0,
+        "M": 200,
+        "O": 0,
+        "d": 0,
+        "target": 200,
+        "last": 200
+      },
+      "expected": {
+        "score": 0
+      }
+    },
+    {
+      "name": "d3",
+      "observed": {
+        "score": 2193,
+        "q": 1,
+        "R": 0,
+        "M": 203,
+        "O": 3,
+        "d": 3,
+        "target": 200,
+        "last": 203
+      },
+      "expected": {
+        "score": 2193,
+        "d": 3
+      }
+    },
+    {
+      "name": "d4_zero",
+      "observed": {
+        "score": 0,
+        "q": 1,
+        "R": 0,
+        "M": 204,
+        "O": 4,
+        "d": 4,
+        "target": 200,
+        "last": 204
+      },
+      "expected": {
+        "score": 0
+      }
+    },
+    {
+      "name": "O199",
+      "observed": {
+        "score": 2371,
+        "q": 2,
+        "R": 1,
+        "M": 398,
+        "O": 199,
+        "d": 0,
+        "target": 0,
+        "last": 0
+      },
+      "expected": {
+        "score": 2371,
+        "O": 199
+      }
+    },
+    {
+      "name": "O200_zero",
+      "observed": {
+        "score": 0,
+        "q": 2,
+        "R": 1,
+        "M": 400,
+        "O": 200,
+        "d": 0,
+        "target": 0,
+        "last": 0
+      },
+      "expected": {
+        "score": 0
+      }
+    },
+    {
+      "name": "R6",
+      "observed": {
+        "score": 2603,
+        "q": 9,
+        "R": 6,
+        "M": 7,
+        "O": 1,
+        "d": 1,
+        "target": 0,
+        "last": 1
+      },
+      "expected": {
+        "score": 2603,
+        "R": 6
+      }
+    },
+    {
+      "name": "R7_zero",
+      "observed": {
+        "score": 0,
+        "q": 8,
+        "R": 7,
+        "M": 8,
+        "O": 1,
+        "d": 0,
+        "target": 0,
+        "last": 0
+      },
+      "expected": {
+        "score": 0,
+        "R": 7
+      }
+    },
+    {
+      "name": "stationary_direction",
+      "observed": {
+        "score": 2731,
+        "q": 5,
+        "R": 2,
+        "M": 3,
+        "O": 1,
+        "d": 1,
+        "target": 0,
+        "last": 1
+      },
+      "expected": {
+        "score": 2731,
+        "R": 2,
+        "M": 3
+      }
+    },
+    {
+      "name": "tie_even_midpoint",
+      "observed": {
+        "score": 2766,
+        "q": 2,
+        "R": 1,
+        "M": 201,
+        "O": 1,
+        "d": 0,
+        "target": 199,
+        "last": 199
+      },
+      "expected": {
+        "target": 199,
+        "score": 2766
+      }
+    },
+    {
+      "name": "tie_symmetric",
+      "observed": {
+        "score": 2763,
+        "q": 2,
+        "R": 1,
+        "M": 203,
+        "O": 2,
+        "d": 0,
+        "target": 199,
+        "last": 199
+      },
+      "expected": {
+        "target": 199,
+        "score": 2763
+      }
+    },
+    {
+      "name": "PDF_example_under_R30",
+      "observed": {
+        "score": 2955,
+        "q": 5,
+        "R": 1,
+        "M": 8,
+        "O": 2,
+        "d": 0,
+        "target": 4,
+        "last": 4
+      },
+      "expected": {
+        "score": 2955,
+        "q": 5,
+        "R": 1,
+        "M": 8,
+        "O": 2,
+        "d": 0
+      }
+    },
+    {
+      "name": "raw_one",
+      "observed": {
+        "score": 1,
+        "q": 149,
+        "R": 3,
+        "M": 2740,
+        "O": 20,
+        "d": 0,
+        "target": 900,
+        "last": 900
+      },
+      "expected": {
+        "score": 1,
+        "q": 149
+      }
+    },
+    {
+      "name": "raw_one_stationary_to_zero",
+      "observed": {
+        "score": 0,
+        "q": 150,
+        "R": 3,
+        "M": 2740,
+        "O": 20,
+        "d": 0,
+        "target": 900,
+        "last": 900
+      },
+      "expected": {
+        "score": 0,
+        "q": 150
+      }
+    }
+  ],
+  "conversion_random_metric_tuples": 10000,
+  "early_probe_forward": {
+    "Q": 132,
+    "R": 2,
+    "M_plus_O": 482,
+    "C30": 2326,
+    "C1": 2384,
+    "counts": [
+      1,
+      6,
+      0,
+      33
+    ],
+    "platform_scores": [
+      92793,
+      91687
+    ],
+    "R1_compatible_K_H": [],
+    "scope": "Rules out R1 for this cohort under documented probe construction; R30 is the adopted platform-calibration model, not direct checker-source inspection."
+  },
+  "references": [
+    {
+      "role": "paper_extracted",
+      "path": "W:\\华为\\competition_analysis\\evidence\\problem.txt",
+      "sha256": "59db83b21280c5b7453c06c6ccc1615325ba44dba0759a8652bda53be4052eb9",
+      "lines": [
+        {
+          "number": 2,
+          "text": " 时间限制：10s（每用例） 空间限制：512MB"
+        },
+        {
+          "number": 40,
+          "text": "     第一次读取不计振荡。"
+        },
+        {
+          "number": 44,
+          "text": "峰\"）；距离相同取更小下标。例如 [6, 8, 10, 9, 8, 10, 4, 7, 10, 4] 中三个最大值分别在下"
+        },
+        {
+          "number": 48,
+          "text": "拟电机运行并自动统计搜索步、搜索代价、振荡次数与冗余步数。协议中的下标一律为 0-based。"
+        },
+        {
+          "number": 61,
+          "text": " 程序每次查询输出一行下标（0-based），读取一行清晰度值。"
+        },
+        {
+          "number": 65,
+          "text": " 除协议行外，不得向标准输出写任何其他内容（调试信息请写到标准错误）。"
+        },
+        {
+          "number": 69,
+          "text": "值、最后输出 DONE 。最终电机停在下标即最后输出的下标（最后一次查询的 idx）； DONE 本身不"
+        },
+        {
+          "number": 80,
+          "text": "     case score = max(0, 3000 − 200×d − search_time − oscillation − redundant)"
+        },
+        {
+          "number": 83,
+          "text": "   搜索步数 ≥ 200；"
+        },
+        {
+          "number": 87,
+          "text": "总分 = 所有用例得分之和（共 102 个用例）。0 分结果（停错峰、超振荡、超冗余、超查询）仍"
+        },
+        {
+          "number": 95,
+          "text": " 内存限制：512MB（平台级限制）。"
+        },
+        {
+          "number": 133,
+          "text": "5. 最终得分：2984。"
+        },
+        {
+          "number": 144,
+          "text": " 超出内 程序内存超过 512MB                                 整份作"
+        }
+      ]
+    },
+    {
+      "role": "old_evaluator",
+      "path": "W:\\华为\\competition_analysis\\evaluator.py",
+      "sha256": "8d8e6dbc2579c5165d68eedfa0d1139da357dca6384cdc801b61107ac494e2e1",
+      "lines": [
+        {
+          "number": 17,
+          "text": "def evaluate(values, trace):"
+        },
+        {
+          "number": 40,
+          "text": "    score = 0 if reasons else max(0,3000-200*distance-search_time-reversals-redundant)"
+        },
+        {
+          "number": 41,
+          "text": "    if not reasons and score == 0: reasons.append(\"cost_exhausted\")"
+        }
+      ]
+    },
+    {
+      "role": "old_support_harness",
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\support\\harness.py",
+      "sha256": "c18747e5c28a222c255418f1679265b468c3f0eb61a0c4e348e2fe3fa99a1622",
+      "lines": [
+        {
+          "number": 9,
+          "text": "def score(values, trace, elapsed_ms):"
+        },
+        {
+          "number": 34,
+          "text": "    raw = max(0, 3000-200*error-len(trace)-distance-reversals-redundant)"
+        },
+        {
+          "number": 36,
+          "text": "    if not failures and raw == 0: failures.append('cost')"
+        },
+        {
+          "number": 42,
+          "text": "def interactive(executable, values):"
+        }
+      ]
+    },
+    {
+      "role": "correct_double_scorer",
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\runtime_coverage_candidate_20261110\\build_validate.py",
+      "sha256": "2840191b344142c7d0ec844ca85493f47ec9fefafb0204cc0bad0db2ce80976f",
+      "lines": [
+        {
+          "number": 28,
+          "text": "def independent_metric(v,trace):"
+        },
+        {
+          "number": 35,
+          "text": "    result=max(0,3000-200*err-q-travel-30*turns-over) if legal else 0"
+        },
+        {
+          "number": 38,
+          "text": "def loop_metric(v,trace):"
+        },
+        {
+          "number": 50,
+          "text": "    return 0 if q>=200 or turns>=7 or error>3 or over>=200 else max(0,3000-200*error-q-travel-30*turns-over)"
+        }
+      ]
+    },
+    {
+      "role": "current_harness",
+      "path": "W:\\华为\\research_audit_20261110\\lab\\run_experiments.py",
+      "sha256": "826bb47dce3bd2837629c45bc173c0bc5791bbbc92a4a2b28d87f3cf34e0b747",
+      "lines": [
+        {
+          "number": 42,
+          "text": "selected=[x for x in module.body if isinstance(x,ast.FunctionDef) and x.name in {'make_cases','independent_metric','loop_metric'}]"
+        },
+        {
+          "number": 67,
+          "text": "def pipe(exe,values,name):"
+        },
+        {
+          "number": 112,
+          "text": "def score_tests():"
+        }
+      ]
+    },
+    {
+      "role": "early_probe_math",
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\probe_math.txt",
+      "sha256": "5ddd5749b60123a5455601a15efcaf0c7573c6a69837cdab3044ead68029085b",
+      "lines": [
+        {
+          "number": 18,
+          "text": "目标在核心内时，Q=25+106+1=132，R=2，M=192+(192-47)+(p-47)=290+p，O=192-p。"
+        },
+        {
+          "number": 19,
+          "text": "因此M+O=482，d=0，单例基础分C_E=3000-132-60-482=2326，与真实p、N及曲线幅度无关。"
+        },
+        {
+          "number": 24,
+          "text": "因此M+O=662，d=0，单例基础分C_L=3000-82-60-662=2196。"
+        },
+        {
+          "number": 40,
+          "text": "S1=C*K-c0-B*c1；S2=C*K-c2-B*c3。"
+        },
+        {
+          "number": 55,
+          "text": "目前constant=2326/2196假设换向罚分30；若真实罚分不是30，编码完整性检查可能报错，此时禁止解释统计结果。"
+        }
+      ]
+    },
+    {
+      "role": "early_probe_feedback",
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\official_feedback.json",
+      "sha256": "c3075ff2022255c3353a87e8f1eb4b8f390888fa6cf8b7c965672535270f161e",
+      "lines": [
+        {
+          "number": 9,
+          "text": "      \"score\": 92793,"
+        },
+        {
+          "number": 17,
+          "text": "      \"score\": 91687,"
+        }
+      ]
+    },
+    {
+      "role": "early_probe_decoded",
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\official_decoded.json",
+      "sha256": "b4c9030a748529592236172562bed01a013172fa01068422ea6d5663be998c67",
+      "lines": [
+        {
+          "number": 6,
+          "text": "    \"constant_per_positive_case\": 2326,"
+        },
+        {
+          "number": 9,
+          "text": "    \"cells_00_01_10_11\": ["
+        },
+        {
+          "number": 28,
+          "text": "    \"constant_per_positive_case\": 2196,"
+        },
+        {
+          "number": 31,
+          "text": "    \"cells_00_01_10_11\": ["
+        },
+        {
+          "number": 97,
+          "text": "    \"Reversal penalty is 30; query, movement and overshoot penalties are 1.\","
+        }
+      ]
+    },
+    {
+      "role": "decode_performance",
+      "path": "W:\\华为\\research_audit_20261110\\guarded_postpone_20261110\\decode_feedback.py",
+      "sha256": "337a2162161f3a59206e1478148c8e9ab875e257fcc85af3e80b03b997d282d0",
+      "lines": [
+        {
+          "number": 3,
+          "text": "def decode(score,counted):"
+        },
+        {
+          "number": 5,
+          "text": "    p=score-counted"
+        }
+      ]
+    }
+  ],
+  "probe_source_binding_verified": [
+    {
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\01_早峰_判断00与01\\main.cpp",
+      "sha256": "7f3e018310c404e46201bfa3c350b0a93596ecc292064506962660034a8b5bc2",
+      "official_score": 92793
+    },
+    {
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\02_早峰_判断10与11\\main.cpp",
+      "sha256": "7105c5201c72ec94c62566cd6a125037e2780dd9ec0586ff1c01fe5e2b175c8f",
+      "official_score": 91687
+    },
+    {
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\03_晚峰_判断00与01\\main.cpp",
+      "sha256": "6c4163b25f647dc4750682de9443ea65e434c8a5638955c699eeecde3990e18b",
+      "official_score": 70122
+    },
+    {
+      "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\04_晚峰_判断10与11\\main.cpp",
+      "sha256": "39b0cc6f2b252255d02fa996b36e57f17fedbe5765446c5fda4b4e717357e1b2",
+      "official_score": 70102
+    }
+  ],
+  "limitations": [
+    "No official full 102 value arrays available.",
+    "PDF literal R1 contradicts platform-calibrated R30.",
+    "Timing/protocol/memory failures require separate runtime checks.",
+    "No mapping from arbitrary synthetic aggregate total to official score."
+  ]
+}

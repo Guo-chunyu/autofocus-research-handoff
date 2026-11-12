@@ -1,0 +1,77 @@
+本地运行、评分与平台校准（从解压根目录执行）
+
+一、依赖与快速自检
+Python 3.10+；C++17 g++。Windows/Linux均使用同一Python代码。
+若g++不在PATH，在simulate.py命令末尾增加 --compiler "编译器绝对路径"。
+所有 --out 必须是新目录或空目录；程序拒绝覆盖已有实验结果。
+
+python -m unittest discover -s 02_tools -p "test_*.py"
+python 02_tools/simulate.py --source 03_sources/12_online_149485.cpp --cases 04_data/smoke_7.json --out runs/smoke_pipe --mode pipe
+
+7条快速样本为旧6912集合行0、131、652、734、1286、1362、4020。预期总分9277，7正分、6精确。
+不等于官方7条样本；它们是已保存的合成回归输入。
+已实际跑过的证据在06_verification/smoke_pipe。
+
+二、完整模拟复现
+python 02_tools/simulate.py --source 03_sources/12_online_149485.cpp --cases 04_data/synthetic_6912.json --out runs/full12 --mode batch
+
+预期：9848096分、5332正分、5325精确正分、最大Q198、R6。
+逐例预期：04_data/expected_12_6912.json。输出metrics.json多了row及解释字段，比较时对照score/q/R/M/O/d/target/last八项。
+当前源码SHA：6d66a463d6020d4dc045cb0f8afd16e2b823f219a59c0a0ea3c02f901125b69a。
+完整输出已复跑并逐例核验，见06_verification/full12_batch及01_docs/ledger_audit/portable_review.json。
+
+python 02_tools/simulate.py --source 03_sources/baseline_online_147097.cpp --cases 04_data/synthetic_6912.json --out runs/baseline --mode batch
+父版预期：9827059分、5331正分。对应04_data/expected_baseline_6912.json。
+这两个本地总分差21037，对应官方147097→149485差2388；这是一组观测，不是可推广的换算系数。
+
+python 02_tools/simulate.py --source 03_sources/12_online_149485.cpp --cases 04_data/used_holdout_2898.json --out runs/used_holdout --mode batch
+逐例预期04_data/expected_12_holdout2898.json。该种子20261112已被查看和用于否决，后续只能当回归，不再叫未见留出。
+
+三、新策略如何测试
+在新副本上修改，不覆盖冻结03_sources文件。使用相同输入分别跑父版和候选。
+先用batch全量对比，再用pipe对所有新增救回/丢失样本以及边界样本逐查询核验。
+batch只是替换读写接口，真正性能路线仍由待测Search产生；不能从测试数组读取算法不应知道的真峰。
+--ids 只选择输入文件中零基行号，例如 --ids 131,652,1362。它不是官方用例ID。
+其他实现没有Search接口时请用--mode pipe；协议是先输入N，收到坐标就回复该点值，最后必须收到DONE。
+协议工具20秒/例是本包的防挂死设置，不声称等于平台时间限制。
+
+比较至少报告：正分数、精确正分数、救回/丢失的个体集合、总分变化、Q/M/R/O/d变化、失败轨迹。
+Q合法不代表精修完成；总分上涨不代表覆盖不退化；净人数不变也不表示成功集合相同。
+通过旧数据后需固定未参与修改的新输入做留出验证，不反复针对同一留出调参后称其为盲测。
+
+四、对给定轨迹评分
+准备JSON：{"values":[完整N个值],"trace":[按实际时间顺序的每次查询坐标]}。
+python 02_tools/score_trace.py your_trace.json --out runs/score.json
+包括缓存点的真实重复查询和最后返回查询；只读内存缓存不计查询，实际printf/flush并读回复才计。
+工具同时输出R30与legacy_R1_score用于核对，但默认研究结论必须按校准后的R30。
+
+五、严格能换算的部分
+相同完整输入、相同实际轨迹、相同并列规则和硬门槛：逐例 S30=max(0,S1-29*R)。
+其中S1必须是该例正确计算的R1分数，R必须是该例同一轨迹的换向次数。最好直接从轨迹重计。
+总分要逐例截零后再相加，不能对旧总分统一减29*总R，也不能乘固定比例。
+没有每例R/轨迹，或输入换成别的数据，就没有这个精确转换。
+PDF本身写R1，平台反馈校准支持R30；证据、原文差异及证据强度见评分审计文档。
+
+六、平台已验证的匹配正分计数
+python 02_tools/decode_official.py 149485 149405 --reference 147097
+得到80正、22零、涨2388。必须是一对已经证明仅多最终一次原位查询的性能/计数源码。
+性能Q<=198，计数Q<=199，M/R/O/d不变；原1分变0仍贡献1分差，已测试。
+任意两个版本的分数不能套用此公式；01及其他载体有各自特定诊断含义，不能混用。
+未来若有新的匹配对，也必须重新验证完整路线不变、预算安全，再用该解码器。
+
+七、不能换算的部分
+无法由6912或2898合成总分准确预测官方固定102例总分。
+已知官方峰位多重集、若干身份/长度信息、分层计数，不等于掌握官方102条FV完整曲线。
+只有取得同一官方完整输入或平台返回足够的每例实际轨迹指标后，才可按同一规则独立重计并核对。
+不把学到的诊断峰位/身份映射塞回最终算法去“保证”平台成绩。
+
+八、无损历史读取/恢复
+python 02_tools/history.py list --path research_audit_20261110
+python 02_tools/history.py cat --path research_audit_20261110/CURRENT_STATE.md
+python 02_tools/history.py extract --path research_audit_20261110 --out restored
+python 02_tools/history.py extract --out all_history
+python 02_tools/history.py verify
+extract要求新/空目录，SHA核验后恢复；不会把文件写回W盘或覆盖旧文件。
+完整恢复约7.8GB，单独恢复研究目录更小。对象目录是SHA无损去重，不是缺失了原文件名；原路径清单可精确还原。
+原赛题PDF/原交接ZIP也在历史清单内，可用extract --path "2026华为嵌入式软件大赛算法组赛题.pdf" 等单独恢复。
+历史脚本可能硬编码W:/D:，只将它们视为可审计证据。优先用本包便携工具，勿无检查地执行旧builder。

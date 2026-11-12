@@ -1,0 +1,162 @@
+[
+  {
+    "name": "history_only",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 3,
+    "lost": 0,
+    "score_delta": -7676,
+    "evidence": "W:\\华为\\research_audit_20261110\\lab\\results\\history_only_metrics.json",
+    "official_score": null
+  },
+  {
+    "name": "separation_only",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 22,
+    "lost": 61,
+    "score_delta": -217051,
+    "evidence": "W:\\华为\\research_audit_20261110\\lab\\results\\separation_only_metrics.json",
+    "official_score": null
+  },
+  {
+    "name": "both",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 22,
+    "lost": 61,
+    "score_delta": -219894,
+    "evidence": "W:\\华为\\research_audit_20261110\\lab\\results\\both_metrics.json",
+    "official_score": null
+  },
+  {
+    "name": "compact",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 4,
+    "lost": 376,
+    "score_delta": 628306,
+    "evidence": "W:\\华为\\research_audit_20261110\\selective_schedule_20261110\\validation.json",
+    "official_score": null
+  },
+  {
+    "name": "selective",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 94,
+    "lost": 706,
+    "score_delta": 209608,
+    "evidence": "W:\\华为\\research_audit_20261110\\selective_schedule_20261110\\validation.json",
+    "official_score": null
+  },
+  {
+    "name": "no_accept",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 188,
+    "lost": 0,
+    "score_delta": -1324816,
+    "evidence": "W:\\华为\\research_audit_20261110\\stop_action_screen_20261110\\summary.json",
+    "official_score": null
+  },
+  {
+    "name": "no_urgent",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 25,
+    "lost": 45,
+    "score_delta": -41861,
+    "evidence": "W:\\华为\\research_audit_20261110\\stop_action_screen_20261110\\summary.json",
+    "official_score": null
+  },
+  {
+    "name": "no_both",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 628,
+    "lost": 3556,
+    "score_delta": -6128689,
+    "evidence": "W:\\华为\\research_audit_20261110\\stop_action_screen_20261110\\summary.json",
+    "official_score": null
+  },
+  {
+    "name": "guarded_postpone (12)",
+    "cases": 6912,
+    "parent": "147097 policy local baseline",
+    "rescued": 1,
+    "lost": 0,
+    "score_delta": 21037,
+    "evidence": "W:\\华为\\research_audit_20261110\\guarded_postpone_20261110\\validation.json",
+    "official_score": 149485
+  },
+  {
+    "name": "forward_phase",
+    "cases": 6912,
+    "parent": "149485 policy local baseline",
+    "rescued": 9,
+    "lost": 14,
+    "score_delta": 83720,
+    "evidence": "W:\\华为\\research_audit_20261110\\forward_phase_20261112\\validation.json",
+    "official_score": null
+  },
+  {
+    "name": "defer_only",
+    "cases": 6912,
+    "parent": "149485 policy local baseline",
+    "rescued": 2,
+    "lost": 6,
+    "score_delta": 49041,
+    "evidence": "W:\\华为\\research_audit_20261110\\deferred_phase_20261112\\defer_only\\validation.json",
+    "official_score": null
+  },
+  {
+    "name": "horizon_only",
+    "cases": 6912,
+    "parent": "149485 policy local baseline",
+    "rescued": 2,
+    "lost": 3,
+    "score_delta": 45828,
+    "evidence": "W:\\华为\\research_audit_20261110\\deferred_phase_20261112\\horizon_only\\validation.json",
+    "official_score": null
+  },
+  {
+    "name": "combined",
+    "cases": 6912,
+    "parent": "149485 policy local baseline",
+    "rescued": 0,
+    "lost": 1,
+    "score_delta": 34484,
+    "evidence": "W:\\华为\\research_audit_20261110\\deferred_phase_20261112\\combined\\validation.json",
+    "official_score": null
+  },
+  {
+    "name": "committed",
+    "cases": 6912,
+    "parent": "149485 policy local baseline",
+    "rescued": 3,
+    "lost": 6,
+    "score_delta": 30497,
+    "evidence": "W:\\华为\\research_audit_20261110\\deferred_phase_20261112\\committed\\validation.json",
+    "official_score": null
+  },
+  {
+    "name": "priority",
+    "cases": 6912,
+    "parent": "149485 policy local baseline",
+    "rescued": 1,
+    "lost": 0,
+    "score_delta": 35561,
+    "evidence": "W:\\华为\\research_audit_20261110\\deferred_phase_20261112\\priority\\validation.json",
+    "official_score": null
+  },
+  {
+    "name": "priority cold holdout seed 20261112",
+    "cases": 2898,
+    "parent": "149485 policy on same new seed",
+    "rescued": 0,
+    "lost": 1,
+    "score_delta": 15453,
+    "evidence": "W:\\华为\\research_audit_20261110\\deferred_phase_20261112\\holdout\\validation.json",
+    "official_score": null
+  }
+]

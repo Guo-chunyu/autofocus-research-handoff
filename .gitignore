@@ -1,0 +1,6 @@
+runs/
+__pycache__/
+*.pyc
+*.exe
+*.zip
+05_history/objects/

@@ -1,0 +1,17 @@
+{
+  "status": "verified_read_only_audit",
+  "current_source_hashes_checked": 13,
+  "historical_rows": 253,
+  "historical_source_hashes_matched": 252,
+  "historical_images_hashes_matched": 209,
+  "unknown_source_bindings": [
+    {
+      "record": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\evidence\\withdrawn_network_feedback.json",
+      "source": "01_分布先验续接/main.cpp",
+      "score": 196475
+    }
+  ],
+  "historical_feedback_files": 136,
+  "hash_mismatches": [],
+  "history_not_modified": true
+}

@@ -1,0 +1,70 @@
+{
+  "status": "passed_with_nonblocking_notes",
+  "full_cases": 6912,
+  "fields_checked": [
+    "score",
+    "q",
+    "R",
+    "M",
+    "O",
+    "d",
+    "target",
+    "last"
+  ],
+  "field_comparisons": 55296,
+  "total_score": 9848096,
+  "positive": 5332,
+  "exact_positive": 5325,
+  "smoke_links": [
+    {
+      "smoke_row": 0,
+      "original_row": 0,
+      "queries": 121,
+      "score": 1781
+    },
+    {
+      "smoke_row": 1,
+      "original_row": 131,
+      "queries": 174,
+      "score": 1342
+    },
+    {
+      "smoke_row": 2,
+      "original_row": 652,
+      "queries": 193,
+      "score": 1207
+    },
+    {
+      "smoke_row": 3,
+      "original_row": 734,
+      "queries": 108,
+      "score": 1778
+    },
+    {
+      "smoke_row": 4,
+      "original_row": 1286,
+      "queries": 197,
+      "score": 1057
+    },
+    {
+      "smoke_row": 5,
+      "original_row": 1362,
+      "queries": 177,
+      "score": 1383
+    },
+    {
+      "smoke_row": 6,
+      "original_row": 4020,
+      "queries": 198,
+      "score": 729
+    }
+  ],
+  "new_solver_runs": 0,
+  "tool_files_unchanged": true,
+  "tool_sha256": {
+    "simulate.py": "985e680886a7195a5bc623c86d634addb5238f7204528857bc0a1fe33b7c8f4c",
+    "score_trace.py": "f8203d92277413f755f8a4153ddf6471391aacd6733ef052444f4ffe223add07",
+    "history.py": "118c42245ba2fbcedce4fcb303f6f8d6242589ee80db73dcc99e73c31b59f9dd"
+  },
+  "no_blocking_issue_found": "R30 metrics match frozen expected results; smoke pipe matches batch; restore refuses nonempty destination and path traversal."
+}

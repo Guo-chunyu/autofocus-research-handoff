@@ -1,0 +1,682 @@
+[
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\active_halfstep_evidence_20261109\\feedback_spec_1304.json",
+    "sha256": "0731245f8ab5eb8bf9346fe3543d0fe8750d75417ce6fd77160c9edb52c1ad9b",
+    "bytes": 477
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\active_halfstep_evidence_20261109\\official_feedback.json",
+    "sha256": "962c99bb1449cc8125e30e344b745418ea68d94b8f064e1fa1eb62dbdfa13863",
+    "bytes": 5792
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\baseline_coverage_20261107\\official_feedback.json",
+    "sha256": "69d12c18984cd4799cf1fcca16d0ba04d98afe243a3c5863444c50a310a7bf2b",
+    "bytes": 1900
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\bounded_continuation_20261109\\feedback_spec_1906.json",
+    "sha256": "57c1ed7df13dd08a81748ffb36c0368dd2dd8e5fb07ced1df0f4c823cc359d7a",
+    "bytes": 368
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\bounded_continuation_20261109\\official_feedback.json",
+    "sha256": "38083142cd93ed83baf821826f671ea80a71047bfbee511ff8155fe57d0f9849",
+    "bytes": 2657
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\candidate_certified_refine_20261105\\official_feedback.json",
+    "sha256": "257e2062baed707ee1d984663c097e559ef401c878b5bad7296712c7e7f556c8",
+    "bytes": 1056
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\candidate_early_recovery_20261105\\latest_feedback_audit.json",
+    "sha256": "4f728868e540b224a1fd53f95689593011bd9f5a840bef6f32669b8a385ac6ea",
+    "bytes": 5284
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\candidate_early_recovery_20261105\\official_feedback.json",
+    "sha256": "8158e14d2aa8336768f1d3dc6652f1364626c1649b4e7c3d86f942e75c0d93b2",
+    "bytes": 1480
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\candidate_order_20261109\\feedback_spec_2305.json",
+    "sha256": "86bc03eb55d1b440ab779a2cdbe8706952c216b1ad0630fa76941ec7b30feb06",
+    "bytes": 434
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\candidate_order_20261109\\official_feedback.json",
+    "sha256": "9fec68b0bc492ac6dc1f791afc0a8c4d0a8f7669eb9c52f60f2f012955192216",
+    "bytes": 4457
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\candidate_pool_information_20261108\\feedback_spec_2328.json",
+    "sha256": "9002d3ea5d46735027e32df0ee1479882008e94c22ac4210e8a67f2dd5abd22f",
+    "bytes": 358
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\candidate_pool_information_20261108\\official_feedback.json",
+    "sha256": "4c70dbf5894882bf54920cf85e2d29e362c8d54364250864d6c2b1f4a32b0af3",
+    "bytes": 3131
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\cohort_fingerprint_20261108\\feedback_spec_2306.json",
+    "sha256": "6569941789ec299bf653dc1c1761cc64ab069f7d26596b2a70a119d720851e02",
+    "bytes": 358
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\cohort_fingerprint_20261108\\official_feedback.json",
+    "sha256": "81f806bed5b3060eeacbe0b6d63a08eb7280c5e75d3a6dd33a6683cae8067f74",
+    "bytes": 3006
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\distributed_phase_recovery_20261109\\feedback_spec_1725.json",
+    "sha256": "d19d00127a25283b588701e8a63325e8c7e81f72db6c9793f40aedae92f609e4",
+    "bytes": 347
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\distributed_phase_recovery_20261109\\official_feedback.json",
+    "sha256": "188f9436762b8a968ed7c244d49a7dfe9e4028090c578e51f59bbbd7ddbfff23",
+    "bytes": 2063
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\event_gap_mechanism_20261109\\feedback_spec_0022.json",
+    "sha256": "afeb1a94edea104e0e6ba80e2f3362f8666b5b533dfea93d6560188ef5b3a40d",
+    "bytes": 333
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\event_gap_mechanism_20261109\\official_feedback.json",
+    "sha256": "1c97f8a138acf299c33646b0c90e782cd8237eea78554fa3b850e2267b15ed21",
+    "bytes": 3106
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\event_gap_mechanism_20261109\\official_feedback_auditor_output.json",
+    "sha256": "7c6edc802a9297f4c69061bb4352e0ed3d9b5c0384d61ab0628a4feb68301b0f",
+    "bytes": 2466
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\event_joint_candidate_rank_20261109\\feedback_spec_1703.json",
+    "sha256": "4d618451b597cb03f83b7d59beb5a70c78daedd9520b5db5b6e6cd0d80d0dd62",
+    "bytes": 391
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\event_joint_candidate_rank_20261109\\official_feedback.json",
+    "sha256": "6d48c5d978187f801ac989e87d36c59de000481fc05c77872e17e426814e4e67",
+    "bytes": 3341
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\evidence\\withdrawn_network_feedback.json",
+    "sha256": "d2e4d3f82330bd3424bba09c4de8b0776920607821770de5dbd90f19095e7593",
+    "bytes": 535
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_1621.json",
+    "sha256": "7772d5d47e887ce96daae3759234577e1d14e2d841b04297a2ecd13a846f7072",
+    "bytes": 4763
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_1635.json",
+    "sha256": "c2ebcc8827ac48864adb03480a4ad08bc7de28582830b8f107f8a9681c58e9fc",
+    "bytes": 4041
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_1648.json",
+    "sha256": "c59c70908de12ebe674e46b8e0e7652b1cf3d7ca72d95d51f89ab36898c3a918",
+    "bytes": 9506
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_1756.json",
+    "sha256": "e9f6cc0afcc9bcab7432b79bf91c68ef5078007e577273f3693ca93e1b9408d7",
+    "bytes": 17265
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_1811.json",
+    "sha256": "c966dfbe3b1d09034150749daf706d166e101611719f8fb67806face046ecc34",
+    "bytes": 14478
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_2013.json",
+    "sha256": "f2fdfce2b6a9903e78ad1c119a5e5cc005c364d32dca05681d4f8e73504bc2ba",
+    "bytes": 15797
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_2025.json",
+    "sha256": "d4354c18d02fa1e4b33beee8607e0b2fe0da7bde6cffac525f7e2aa2e89007bc",
+    "bytes": 11586
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_2038.json",
+    "sha256": "96df2895c716d170787e2e153534062319259b3d540d75b52460bb39da0be7ba",
+    "bytes": 6562
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_audit_2051.json",
+    "sha256": "c0d5dfea5326b93519cf47fee235997f18178d7e96b98b8d7b02e247a4275130",
+    "bytes": 7139
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_pending_batch9.json",
+    "sha256": "180639905d148381af74607b76fa57f97dcd18aed03038a4234a8bde3903416a",
+    "bytes": 2141
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_snapshot_batch10_tree.json",
+    "sha256": "96ba4cd00e5f8a6870a4c9861c8c2d9e78cb704851d9371ec7426036c385d1f0",
+    "bytes": 154254
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_snapshot_batch11_tree.json",
+    "sha256": "82daa7a7d142dc5a216e22e5d9310e84a14957a0bfbd55f79d08c8c6af4960b8",
+    "bytes": 206093
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_snapshot_batch12_tree.json",
+    "sha256": "13af930d2fb9feab6f1588402048c6d1e68605dc6e4fb3e306df1a1f679a3da9",
+    "bytes": 221096
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_snapshot_batch13_tree.json",
+    "sha256": "ee004e2f281e5d250e818f39edccbcb0a45f65961ee17e94d0171eedb819a48f",
+    "bytes": 227887
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_snapshot_batch6_tree.json",
+    "sha256": "46cf2a08ff86700dbbe6a3b99907f711886816571a0e651715629fe5a30711f5",
+    "bytes": 55781
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_snapshot_batch7_tree.json",
+    "sha256": "5e1cf8a0e6fcc23957a5e11c00a893681dc1665e81460d3e3cbc7c07274b079e",
+    "bytes": 70331
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_snapshot_batch8_tree.json",
+    "sha256": "9442017524edb1c5c17dc4fd91f2624a30783af9268dc5033a65eeb149db1284",
+    "bytes": 94844
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_snapshot_batch9_tree.json",
+    "sha256": "34f00933175985791f5aba93d5b765bf6e4dda03a450a0e491891db964b4f3fe",
+    "bytes": 124344
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_spec_batch10.json",
+    "sha256": "348578fe9e36d7cd225a275341c6850e051d214a8e9bc84735a1514074bb10d6",
+    "bytes": 629
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_spec_batch11_partial.json",
+    "sha256": "8425ac6fe7748b27171000edd8beeff9a8d04578276666c721eaa7bc78c56554",
+    "bytes": 609
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_spec_batch12.json",
+    "sha256": "48f8ac7cc2aa2c4b8df45a3746ce58a8831d14cfb290b23ff6cdd649a3258f47",
+    "bytes": 491
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_spec_batch13.json",
+    "sha256": "1d2f38cd29214255d57c49f262e5261615bb89961ceccfe6df32e2dd6c816d98",
+    "bytes": 459
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_spec_batch8.json",
+    "sha256": "c7dbc0a987ab58e26f136a066f885440e56696504eb5ed3795d85afaefd24d71",
+    "bytes": 429
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\feedback_spec_batch9.json",
+    "sha256": "d03ea13c01555c66cf37d0d9428b523819c587b450504cf5abcffdcd852f2ac2",
+    "bytes": 511
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_08b.json",
+    "sha256": "a1a3706fa8438f0eda4a65fa8080e06d5bb590eb991c65801685b1fd93387622",
+    "bytes": 887
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_41_scoring.json",
+    "sha256": "ce62344d10923fcd0892d9b9a089ba2610f4be2882523876483193319d63a6b5",
+    "bytes": 839
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch1.json",
+    "sha256": "515d3ebc4643e451b0d2fc6bb608ed9eb0758ef2058e43083da076e14d22d273",
+    "bytes": 1468
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch10.json",
+    "sha256": "5071a50f3c6b08074d35cfe1b58b1d1e179310a55aff63bf3ed494c99808b905",
+    "bytes": 2799
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch11.json",
+    "sha256": "c94f368fa0b91b80d2fbdf49e1b12bb3d6d35fd81db9e32058b1ea5abc9eb101",
+    "bytes": 2132
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch12.json",
+    "sha256": "507d2ec5a5e064afd27d6aa8c1432e40c705031fcea69c5cedb2a7b5c558c1e0",
+    "bytes": 974
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch13.json",
+    "sha256": "88b7d685151520f0b5c3b079f365d0c6cbc3a2498bc725e53dbb5e4f1865d25e",
+    "bytes": 965
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch2.json",
+    "sha256": "1d7335ebcfb0b5d075c0155aab1e7f09f94e291421f3e112d7afe610bde331dc",
+    "bytes": 1877
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch3_partial.json",
+    "sha256": "8be0810b217e18c95808351521ca4a9d932ff7ebee80e5acfd966e0c32a5cf62",
+    "bytes": 1874
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch4.json",
+    "sha256": "97d8278e3951b33a541c8ef1eabfb4a1ffb5731505c17a10041ad2432e1042f0",
+    "bytes": 1886
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch4_pending_mapping.json",
+    "sha256": "acb021ea0d7d5fafd70a7d060b05df2942727009d209ec6bdc301682b351dba5",
+    "bytes": 2377
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch5.json",
+    "sha256": "6dde1a3ab88f0ad9b3d91146b3b7ca9960f48913f8eb1374704f1809ec2e3c57",
+    "bytes": 1233
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch6.json",
+    "sha256": "f6df5efa85a3564a756bc1b9fe5e4465b37a2c0f2ec7e75968c7cd3e176af778",
+    "bytes": 1953
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch7.json",
+    "sha256": "554154b1eddc8efffc1f3df0e56d7a64737dd4aa89ebe79533755c5bc5737e13",
+    "bytes": 1933
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch8.json",
+    "sha256": "c98d2a28d3ee9aa80eadf053944be5032ce8065232a16428292f2bf3f25acb6a",
+    "bytes": 1917
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\exact_peak_positions_20261107\\official_feedback_batch9.json",
+    "sha256": "c52d6cd1228db9631915d6b5de777158ecd3fe55d4b6ca1388692b319bf5b84b",
+    "bytes": 2023
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\forward_phase_dominance_20261110\\feedback_spec_1035.json",
+    "sha256": "e0b05ae9d9273663e78217fbb60304d7b26f4e91456d2716abe20ebee4f7a80b",
+    "bytes": 391
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\forward_phase_dominance_20261110\\official_feedback.json",
+    "sha256": "0b895845e2aa85953b830a6238b20582c9be0c991e27b810e450941ea9480a23",
+    "bytes": 3347
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\full_coverage_design_20261109\\current_feedback_actions.json",
+    "sha256": "361542c7f89e93dc0b0f049d3a0d6f571d712d2c777574b9632ee834b3b89ee2",
+    "bytes": 10286
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\full_window_dominance_20261109\\feedback_spec_1929.json",
+    "sha256": "c3bf08a901553cc658871ec8f85116080f31832cad576bd0c236b4e8fb4b3c6b",
+    "bytes": 390
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\full_window_dominance_20261109\\official_feedback.json",
+    "sha256": "ac9838458c4792f248954ec5ca58b0095774010f67f094be791e62b0555bd26a",
+    "bytes": 3264
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\generic_action_failure_20261109\\feedback_spec_1154.json",
+    "sha256": "07d772cd8b3f533858fff62e109627dd27f0d457c470575ea5c2d2f6b649f284",
+    "bytes": 390
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\generic_action_failure_20261109\\official_feedback.json",
+    "sha256": "6d9d058c5ba2f613f4e2bd786229790c1bc2cbfec58172841cc5f2b2c1d9b4e2",
+    "bytes": 3485
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\generic_concentration_action_20261109\\feedback_spec_0042.json",
+    "sha256": "ddab89c50bb2c94d719a4c43c278451d66806a134ca0e66fe7566dbdc54622bb",
+    "bytes": 294
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\generic_concentration_action_20261109\\official_feedback.json",
+    "sha256": "65516a416a6c5a6e0ac81b96cd4d3dfa2139fbf4cde412f736876bdb66f46330",
+    "bytes": 1582
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\head_pair_observation_20261108\\feedback_spec_2243.json",
+    "sha256": "46fec7e03486815343e72c06c0458224b19e857841421d93bdbcf6f242c79f99",
+    "bytes": 358
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\head_pair_observation_20261108\\official_feedback.json",
+    "sha256": "19ddaa65528d83854ed65ecb893cd1c2a279f565618bd127961fc167fe56b1b8",
+    "bytes": 3051
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\information_reset_20261104\\official_feedback.json",
+    "sha256": "c3075ff2022255c3353a87e8f1eb4b8f390888fa6cf8b7c965672535270f161e",
+    "bytes": 1440
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\input_peak_association_20261108\\feedback_spec_2206.json",
+    "sha256": "ab0b30bb03135e10b10ea7d4594422609d83f4d54d217b3637690244fbeeafb5",
+    "bytes": 550
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\input_peak_association_20261108\\official_feedback.json",
+    "sha256": "223820da551e83ba710ff781e7059ff35ce22371112535494d81e8f7c84f53cf",
+    "bytes": 3611
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\local_rule_specificity_20261109\\feedback_spec_2325.json",
+    "sha256": "3aa197ff47aeb83fcf2dec4ce641ed7be325278a75ad8711167b74bce5f4b490",
+    "bytes": 391
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\local_rule_specificity_20261109\\official_feedback.json",
+    "sha256": "672cf33735534ced146887248fec9a7776ef249e7e1bde6f097275002812a7ef",
+    "bytes": 3311
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\lookahead_retention_20261109\\feedback_spec_2354.json",
+    "sha256": "cf89b88f67779b527e5958ffc716a50955dd020dbcd4204584fc8c7f56a05cd0",
+    "bytes": 391
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\lookahead_retention_20261109\\official_feedback.json",
+    "sha256": "8e486593760f0c92834f943d74e3d2f52846607071a54950eafee8111de9176d",
+    "bytes": 3268
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\nongated_bracket_20261109\\feedback_spec_2014.json",
+    "sha256": "7d92c6f964cad3079a7a1408b181bf2850a9b8356851485d5df6ced7ce1f73fa",
+    "bytes": 455
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\nongated_bracket_20261109\\official_feedback.json",
+    "sha256": "8ae329880039762a5ba69252c698ec7325c1a0c57546686998c881cbb66c2cf3",
+    "bytes": 5115
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_candidate_mechanism_20261104\\new_feedback_audit.json",
+    "sha256": "923606edde0eb704f8d83737a3189a80d997aed40a7f56d81cb770c4e5f2dacd",
+    "bytes": 5466
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_candidate_mechanism_20261104\\official_feedback.json",
+    "sha256": "8e1c2118d3cc3d801331e0dd2f02be9443ea64dd8b57105f2375a3eb25bafffa",
+    "bytes": 1913
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_early_20261104\\official_feedback.json",
+    "sha256": "426ae33f561f30e604deb95fea6ecd6ad078d7aac0c6e75c7091ad54e57937ce",
+    "bytes": 1376
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_event_failure_20261105\\new_feedback_audit.json",
+    "sha256": "1c1621876d6be6752d2c3d23e4e420633ec55ffea942b935617b5cb6613434e8",
+    "bytes": 5409
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_event_failure_20261105\\official_feedback.json",
+    "sha256": "f5762587e89b22b62f7e1b707a04048ed8ca0ce82e2ed8d721478eeee3ab966f",
+    "bytes": 1523
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_event_location_20261105\\official_feedback.json",
+    "sha256": "d69697ba041c2d38605ed5d609cbe144b032ad734751a0a9017cbf2abe1028df",
+    "bytes": 1538
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_event_router_20261105\\official_feedback.json",
+    "sha256": "6259d66a2c190ca5399fb7352caaa67c13ac51d241b8502a49b6401af2f983c9",
+    "bytes": 1889
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_features_20261104\\official_feedback.json",
+    "sha256": "5905dd3e40376dadd7621f056a0806da716aa110315a9c6dc5abd5c1c9e7fcb8",
+    "bytes": 1596
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_forward_event_20261105\\official_feedback.json",
+    "sha256": "8ae51ab07f9c2df642dc29fca0ac0979a7d0726336a17ea907495bd29526ff10",
+    "bytes": 1525
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_global_20261104\\official_feedback.json",
+    "sha256": "0571718fcfc484b50186e4ee76a15d7c721938b5bc108c68cde47dd9536b0d87",
+    "bytes": 2202
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_identity_20261104\\official_feedback.json",
+    "sha256": "f38db6ebc28736eca1a45d449b91f7efb6710e67445ffeb57dec94d089d91a4e",
+    "bytes": 2105
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_late_20261104\\official_feedback.json",
+    "sha256": "02969fc3ed80d8fd3fcfb2a90fe444a8dd658f90f8b71ff93e591864e9f9f86f",
+    "bytes": 1721
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_length_20261104\\official_feedback.json",
+    "sha256": "27326ca136a5e20f20dec41623666de0b9d6ee58b652d305bbdb0f7bcf1da6a7",
+    "bytes": 2075
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_length_exact_20261104\\official_feedback.json",
+    "sha256": "db389be13c3860285347d73a994f354ebbdf128012425e393ea1278421707370",
+    "bytes": 1501
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_length_overlap_20261104\\official_feedback.json",
+    "sha256": "3069d61a12e47671eec8f28d2c0f84f0ed8a6240f9cf7e45c697b8e303dd2b33",
+    "bytes": 1487
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_length_parity_20261104\\official_feedback.json",
+    "sha256": "088436dc438209515fb4b94347a1d6a12952e3c72cc9ec5cf3cc7f6fa29bbaf0",
+    "bytes": 1551
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_length_sum_20261104\\official_feedback.json",
+    "sha256": "a8927267b7bd8de08dd048096464587c01da1cfabdcd7d6a2a7601233179f666",
+    "bytes": 1491
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_middle_20261104\\official_feedback.json",
+    "sha256": "7d8a1f1775c13c3921e1b7ee3e9cb69e802cdf3258d850af83894e42ff360913",
+    "bytes": 1732
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_prefix_identity_20261105\\official_feedback.json",
+    "sha256": "0f57893f7ab08237bf41a120a7e09cd7dd41d0ea48c1db8c05573cced15319e9",
+    "bytes": 1873
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_prefix_router_20261105\\official_feedback.json",
+    "sha256": "f4b8e36f9f1938bc7fc487f5ec6037d74af9f478a55ac85bc68970b04cb19018",
+    "bytes": 1150
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_shape_joint_20261104\\official_feedback.json",
+    "sha256": "0e6c72d5dfe7105e01100dd93838ff71f6c623d14b2df00770f304fb8fd4ad3d",
+    "bytes": 2204
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_shape_payoff_20261104\\official_feedback.json",
+    "sha256": "039a272a66d2d3c41504004d57a415b484584b4263ede764c8f5206ca8fe7cf5",
+    "bytes": 2288
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\observation_timing_20261104\\official_feedback.json",
+    "sha256": "46e21c3ea10be3594b802a2e46e0d117994897c0c75651b10b17805a788740c4",
+    "bytes": 2071
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\official_best_199037_20261104\\official_feedback.json",
+    "sha256": "d659589e7fa3b0c47b20a654e4f8d52a5716848dcf0251b89f82d05f4b3aaa50",
+    "bytes": 681
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\peak_value_observation_20261108\\feedback_spec_2222.json",
+    "sha256": "30edb787e4d6aa497260fa9123a662fe2a095c71a011ea5f5a7007e9c079ca5e",
+    "bytes": 358
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\peak_value_observation_20261108\\official_feedback.json",
+    "sha256": "11824e90b3733be6e65353e46b21ffa535e3e1422d4e7f7f33b06baaa4e1a02c",
+    "bytes": 3061
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\residual_action_outcomes_20261109\\feedback_spec_1224.json",
+    "sha256": "97c57fb20f132e2534bfd513f259b5941e802316bc1f129ae4d9f28458738953",
+    "bytes": 390
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\residual_action_outcomes_20261109\\official_feedback.json",
+    "sha256": "3ad0d597f7f931c258d6b02ac78db4515a2b54e170ad315bd90f94a79b329002",
+    "bytes": 3460
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\runtime_coverage_candidate_20261110\\official_feedback.json",
+    "sha256": "3d52ad955133182db34c8d32330db6cf5d7c8b97b0563881f9a01f4db6213846",
+    "bytes": 1559
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\shape_core_20261110\\feedback_spec_1013.json",
+    "sha256": "5c4fece95a2111b19d9818ee87284d0ccd055a0653d3e1aab4712ec8536270cd",
+    "bytes": 391
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\shape_core_20261110\\official_feedback.json",
+    "sha256": "08bd3232374fe24ce463264d02c6beb49611f68d6876b6993c417169243c97f4",
+    "bytes": 3238
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\single_phase_primary_20261109\\feedback_spec_1755.json",
+    "sha256": "77fbcf0449e47520ba8e48418fc324a602d34461eb66311e84710e662407b8db",
+    "bytes": 348
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\single_phase_primary_20261109\\feedback_spec_1809.json",
+    "sha256": "e466ba357dabb9490cd172e9d2c355d79c9c78fcaa11ed0c78a89fb4958bd8a9",
+    "bytes": 303
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\single_phase_primary_20261109\\official_feedback.json",
+    "sha256": "0050318a38445f346bc37f4da33334345bec8490c6e748e491e4b709a4ad7d0e",
+    "bytes": 2651
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\stopping_signal_identifiability_20261108\\feedback_spec_2349.json",
+    "sha256": "59d271de4c6984f45d616f18cb225476806f23eececc627be142207b6ea31b4a",
+    "bytes": 357
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\stopping_signal_identifiability_20261108\\official_feedback.json",
+    "sha256": "56c50952983ea1af91cdb6c7be79d0d9f3cfb5039c4bcaf8bf3ae9229a6643f4",
+    "bytes": 3195
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\stopping_threshold_compatibility_20261108\\feedback_spec_0005.json",
+    "sha256": "41d2f7b001c512d7608f1430e5716bbe13531f299c54ae3c935760ae2af296e4",
+    "bytes": 357
+  },
+  {
+    "path": "W:\\华为\\research_audit_20261110\\固定102用例研究交接_20261110\\workspace\\stopping_threshold_compatibility_20261108\\official_feedback.json",
+    "sha256": "c923bcfbb2020487b26cfcac3163b259178a377a20abd638b5241e17aa982a7d",
+    "bytes": 3175
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\evidence\\official_feedback.pre-round5.json",
+    "sha256": "c9f944dd456e7801129c9376e9fe0fcc03b788d35383e04ccf20707c2685c547",
+    "bytes": 1287
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\evidence\\official_feedback.pre-round6.json",
+    "sha256": "1d08371627f88246ec0809fb5fc41f4cd6f4a315980a545277a77b45031b3c73",
+    "bytes": 1924
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\evidence\\round10_official_feedback.before.json",
+    "sha256": "e9cea618be867991dd3a789f58ebd32d6e48fbe3951b88dfa5a6c0817b558ab9",
+    "bytes": 3164
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\evidence\\round7_official_feedback.before.json",
+    "sha256": "ee5b0b55a3bfbec40a06175ad71e26e9b7cb3a40cfe62d8050cc53c6954185ac",
+    "bytes": 2557
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round10_feedback_receipt.json",
+    "sha256": "500c5b93f16d1321bf5523a2924f9cd806c0aee7aa89636aac997bb72c63eb2f",
+    "bytes": 433
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round5_feedback_wait_audit1.json",
+    "sha256": "8d7e00c28d5f8444ea3c93afe1c749fdd165aa615356082a4166d337f2372887",
+    "bytes": 997
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round5_feedback_wait_audit2.json",
+    "sha256": "7dcf1b57ad6a8f41c1a53f4c6859d1df475b8a826951b91c03ce996db6717446",
+    "bytes": 1018
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round5_feedback_wait_audit3.json",
+    "sha256": "2d5d1999cd64919a54a35d6d656291e82bafec088e9f970fc71b8c7e21d782bb",
+    "bytes": 1616
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round6_feedback_wait_audit1.json",
+    "sha256": "dc5858769366ee4c52bc9009cf838233ef57121098ae0f3f2c8e3210b0d77dd9",
+    "bytes": 903
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round7_feedback_receipt.json",
+    "sha256": "34d25ebcb635c5bc5e2c1ea79eec1515495aa180d5b05dc0467998b0ee59c1fd",
+    "bytes": 255
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round9_feedback_wait_audit1.json",
+    "sha256": "a6d8b6934c7b9e115b1b5d39b276e2534217d16d8a7b7f7072e0ac5cd2c6fddb",
+    "bytes": 1152
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round9_feedback_wait_audit2.json",
+    "sha256": "6caa16b815a83d71c310e50dfe799a173f7c6a271de6fb68d79db28a7ba62539",
+    "bytes": 1151
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\logs\\round9_feedback_wait_audit3.json",
+    "sha256": "a595eb8e549d20c8f3dc5b7d402805b62b2678d5b3483c5af4e3e3c3fafe9fee",
+    "bytes": 1494
+  },
+  {
+    "path": "W:\\华为\\competition_analysis\\official_feedback.json",
+    "sha256": "defdf630c123b5b0451d06b1bc4cc5e0bcc6472b8035040c694d44627be13c09",
+    "bytes": 5203
+  },
+  {
+    "path": "W:\\华为\\autofocus_research_20261102_round3\\independent_audit\\user_reported_feedback_identity.json",
+    "sha256": "b5988f4568f5fd96582b02b2faf10b914d018f292b907486b1f8d0ab91267ea9",
+    "bytes": 1880
+  },
+  {
+    "path": "W:\\华为\\autofocus_research_20261102_round3\\official_feedback.json",
+    "sha256": "51d8323ebdd1fdcadb3478fdb90edee5b55ee423f2937d83f0793e576b15c12a",
+    "bytes": 622
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "status": "passed_with_nonblocking_notes",
+  "full_cases": 6912,
+  "fields_checked": [
+    "score",
+    "q",
+    "R",
+    "M",
+    "O",
+    "d",
+    "target",
+    "last"
+  ],
+  "field_comparisons": 55296,
+  "total_score": 9848096,
+  "positive": 5332,
+  "exact_positive": 5325,
+  "smoke_links": [
+    {
+      "smoke_row": 0,
+      "original_row": 0,
+      "queries": 121,
+      "score": 1781
+    },
+    {
+      "smoke_row": 1,
+      "original_row": 131,
+      "queries": 174,
+      "score": 1342
+    },
+    {
+      "smoke_row": 2,
+      "original_row": 652,
+      "queries": 193,
+      "score": 1207
+    },
+    {
+      "smoke_row": 3,
+      "original_row": 734,
+      "queries": 108,
+      "score": 1778
+    },
+    {
+      "smoke_row": 4,
+      "original_row": 1286,
+      "queries": 197,
+      "score": 1057
+    },
+    {
+      "smoke_row": 5,
+      "original_row": 1362,
+      "queries": 177,
+      "score": 1383
+    },
+    {
+      "smoke_row": 6,
+      "original_row": 4020,
+      "queries": 198,
+      "score": 729
+    }
+  ],
+  "new_solver_runs": 0,
+  "tool_files_unchanged": true,
+  "tool_sha256": {
+    "simulate.py": "985e680886a7195a5bc623c86d634addb5238f7204528857bc0a1fe33b7c8f4c",
+    "score_trace.py": "f8203d92277413f755f8a4153ddf6471391aacd6733ef052444f4ffe223add07",
+    "history.py": "118c42245ba2fbcedce4fcb303f6f8d6242589ee80db73dcc99e73c31b59f9dd"
+  },
+  "history_fixture_checks": [
+    {
+      "name": "history_verify_fixture",
+      "command": [
+        "C:\\Users\\gcy\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "W:\\华为\\dot_handoff_20261112\\package\\02_tools\\history.py",
+        "verify",
+        "--root",
+        "W:\\华为\\dot_handoff_20261112\\agent_ledger\\portable_history_fixture"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "history_extract_fixture",
+      "command": [
+        "C:\\Users\\gcy\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "W:\\华为\\dot_handoff_20261112\\package\\02_tools\\history.py",
+        "extract",
+        "--root",
+        "W:\\华为\\dot_handoff_20261112\\agent_ledger\\portable_history_fixture",
+        "--out",
+        "W:\\华为\\dot_handoff_20261112\\agent_ledger\\portable_restore_fixture"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "history_refuse_overwrite",
+      "command": [
+        "C:\\Users\\gcy\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "W:\\华为\\dot_handoff_20261112\\package\\02_tools\\history.py",
+        "extract",
+        "--root",
+        "W:\\华为\\dot_handoff_20261112\\agent_ledger\\portable_history_fixture",
+        "--out",
+        "W:\\华为\\dot_handoff_20261112\\agent_ledger\\portable_restore_fixture"
+      ],
+      "exit": 1
+    },
+    {
+      "name": "history_refuse_traversal",
+      "command": [
+        "C:\\Users\\gcy\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "W:\\华为\\dot_handoff_20261112\\package\\02_tools\\history.py",
+        "extract",
+        "--root",
+        "W:\\华为\\dot_handoff_20261112\\agent_ledger\\portable_history_fixture",
+        "--out",
+        "W:\\华为\\dot_handoff_20261112\\agent_ledger\\portable_unsafe_restore"
+      ],
+      "exit": 1
+    }
+  ],
+  "no_blocking_issue_found": "R30 metrics match frozen expected results; smoke pipe matches batch; restore refuses nonempty destination and path traversal.",
+  "static_review_notes": [
+    {
+      "severity": "informational",
+      "tool": "simulate.py",
+      "note": "Batch adapter replaces I/O and requires supplied Search structure; other sources should use pipe. This restriction is explicit in docstring and runtime checks."
+    },
+    {
+      "severity": "informational",
+      "tool": "score_trace.py",
+      "note": "Per-case exact scoring only. scope and official_score_prediction=null correctly avoid claiming hidden102 prediction."
+    },
+    {
+      "severity": "low",
+      "tool": "simulate.py",
+      "note": "Negative --ids are accepted by Python indexing and recorded as negative row IDs. Default/full and supplied smoke usage unaffected; recommend explicit 0<=row<len(cases)."
+    },
+    {
+      "severity": "low",
+      "tool": "simulate.py",
+      "note": "Early pipe failures before DONE raise before writing the pipe JSON. Successful current runs are fully logged; for future protocol debugging, consider finally-path capture of partial transcript."
+    },
+    {
+      "severity": "low",
+      "tool": "history.py",
+      "note": "verify validates byte-size only for first occurrence of a deduplicated digest; a corrupted repeated index entry with same SHA but wrong bytes field could be skipped. Extraction revalidates each entry. Real package index was not yet present during this review, so no assertion made about its duplicate-length consistency."
+    },
+    {
+      "severity": "informational",
+      "tool": "score_trace.py",
+      "note": "CLI --out explicitly allows replacing the named file; this is not a history extraction path. Use a new output name as documented workflow."
+    }
+  ],
+  "checked_files": [
+    {
+      "path": "W:\\华为\\dot_handoff_20261112\\package\\06_verification\\full12_batch\\metrics.json",
+      "sha256": "85c99b7c2a3a82bcccb35f601ff7e94df33b099d08f08ed32263f09025dea158"
+    },
+    {
+      "path": "W:\\华为\\dot_handoff_20261112\\package\\04_data\\expected_12_6912.json",
+      "sha256": "2e28c2819cd54a3a114a30a99d4b12bed0712bbce22cb51c49d13a911f10ee68"
+    },
+    {
+      "path": "W:\\华为\\dot_handoff_20261112\\package\\06_verification\\full12_batch\\traces.json",
+      "sha256": "7769fdcce0e695eebc8d1f583344ea5c93b0f108faa3ac4cf51be15c2c420ecb"
+    },
+    {
+      "path": "W:\\华为\\dot_handoff_20261112\\package\\06_verification\\smoke_pipe\\traces.json",
+      "sha256": "bc0b6c2f9b04e7990801682785f1d069ac70d01ba153532f3f5f0699f7129b8e"
+    },
+    {
+      "path": "W:\\华为\\dot_handoff_20261112\\package\\04_data\\smoke_7.json",
+      "sha256": "f7b45147ae6a4168cfca79c6d45bc38996851d34a5ed4d3fceed500247fb7838"
+    }
+  ]
+}
